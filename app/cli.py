@@ -1,5 +1,5 @@
 import typer
-from tasks.freshdesk_pipeline import run_freshdesk_pipeline
+from app.tasks.freshdesk_pipeline import run_freshdesk_pipeline
 import subprocess
 
 app = typer.Typer()
